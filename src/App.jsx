@@ -12,7 +12,7 @@ import Register from './pages/register/Register'; // Import trang Đăng ký
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-
+  
   const handleLogin = () => {
     // Xử lý đăng nhập ở đây (gửi yêu cầu API đăng nhập)
     // Sau khi đăng nhập thành công, đặt setIsLoggedIn(true)
