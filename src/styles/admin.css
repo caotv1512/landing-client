@@ -1,0 +1,27 @@
+/* src/styles/admin.css */
+
+/* Tùy chỉnh thanh điều hướng */
+.navigation {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  /* Tùy chỉnh tiêu đề trang */
+  .page-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Tùy chỉnh danh sách người dùng */
+  .user-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-list-item {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  

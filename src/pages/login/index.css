@@ -1,0 +1,50 @@
+/* src/components/Login.css */
+
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px #e0e0e0;
+    text-align: center; /* Căn giữa nội dung */
+    margin-top: 40px; /* Khoảng cách phía trên form */
+  }
+  
+  .login-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .login-input {
+    width: 90%;
+    padding: 12px; /* Tăng padding để căn giữa vị trí dự kiến */
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    text-align: left; /* Căn lề trái */
+    padding-left: 10px; /* Thêm padding bên trái */
+    font-size: 16px; /* Cỡ chữ */
+    outline: none; /* Loại bỏ viền đường nét */
+  }
+  
+  .login-button {
+    width: 95%;
+    padding: 12px;
+    background-color: #ee4d2d;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-size: 16px; /* Cỡ chữ */
+    outline: none; /* Loại bỏ viền đường nét */
+  }
+  
+  .login-button:hover {
+    background-color: #ff6e4a;
+  }
+  
